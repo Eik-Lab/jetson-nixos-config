@@ -10,6 +10,7 @@ This setup provides a minimal yet functional NixOS environment on the Jetson AGX
 
 - NVIDIA Jetson AGX Orin Developer Kit
 - NixOS installation media compatible with ARM64 architecture
+- (Follow this repository created by -> [anduril](https://github.com/anduril/jetpack-nixos))
 - Basic familiarity with NixOS configuration management
 - Network connectivity for package downloads during installation
 
@@ -52,7 +53,7 @@ Boot from NixOS installation media and partition your storage device according t
 ### 2. Clone Configuration
 
 ```bash
-git clone <repository-url> /mnt/etc/nixos
+git clone https://github.com/Eik-Lab/jetson-nixos-config.git /mnt/etc/nixos
 cd /mnt/etc/nixos
 ```
 
